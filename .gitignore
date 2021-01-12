@@ -1,0 +1,15 @@
+*.DS_Store
+__pycache__
+*.pyc
+*.swp
+./src/
+./dist/
+.cache/
+.eggs/
+dist/
+ecs-data.dump
+ecs.egg-info/
+local
+.vscode
+.pytest_cache
+.env
