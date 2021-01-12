@@ -48,11 +48,24 @@ pipenv shell
 py.test
 ```
 
-## Deployment
+## Deployment to PyPI
+To deploy to PyPI
 
 ```bash
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
+## Deployment to GitHub
+We should be able to push this to GitHub and install using Pipenv:
+https://github.com/pypa/pipenv/blob/master/docs/basics.rst#-a-note-about-vcs-dependencies
+
+Eg.
+
+```toml
+[packages]
+connected-conics = {git = "https://github.com/eyespace-online/connected_conics.git", editable = true, ref = "v0.0.3"}
+```
+
 Copyright 2020 Innovatus Technology Pty Ltd
+

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="connected_conics",
-    version="0.0.3",
+    version="0.0.4",
     author="Jake Brown",
     author_email="jake@eyespacelenses.com",
     description="Functions for geometric analysis of connected conic sections",
