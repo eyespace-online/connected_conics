@@ -64,7 +64,7 @@ Eg.
 
 ```toml
 [packages]
-connected-conics = {git = "https://github.com/eyespace-online/connected_conics.git", editable = true, ref = "v0.0.3"}
+connected_conics = {git = "https://github.com/eyespace-online/connected_conics.git", editable = true, ref = "v0.0.3"}
 ```
 
 Copyright 2020 Innovatus Technology Pty Ltd
